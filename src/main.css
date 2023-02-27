@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header {
+        @apply font-semibold leading-[2.188rem]
+    }
+
+    .main-header {
+        @apply header text-4xl leading-[3rem] sm:text-[3.125rem] sm:leading-[4.063rem]
+    }
+
+    .secondary-header {
+        @apply main-header text-2xl leading-[2.5rem] sm:text-[2.188rem] sm:leading-[2.813rem]
+    }
+
+    .fr {
+        @apply relative top-1
+    }
+
+    .btn {
+        @apply rounded-[0.625rem] font-medium py-2.5 leading-8 text-[14px] px-4 tracking-wider
+    }
+
+    .no-scrollbar {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .form-input {
+        @apply border border-[#dae1e7] focus:outline-none rounded-md py-0.5 px-3 w-full block
+    }
+}
