@@ -1,6 +1,5 @@
 "use client";
 
-import Logo from "@assets/img/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -87,7 +86,7 @@ const Header = () => {
 			>
 				<Link href="/">
 					<Image
-						src={Logo}
+						src="https://res.cloudinary.com/dxz9i2qyd/image/upload/v1677513621/WhatsApp_Image_2023-02-27_at_4.56.17_PM_kdtdnv.jpg"
 						alt="FMTL"
 						quality={100}
 						priority={true}
